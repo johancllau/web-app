@@ -1,0 +1,16 @@
+
+p {
+    margin: 0 0 20px;
+}
+.navbar {
+    background-image:url('../img/bg.png');
+    background-repeat:repeat;
+}
+.jumbotron {
+    background-color: transparent;
+    padding: 70px 0 0 0;
+}
+.footer {
+    margin-top: 40px;
+    padding: 40px 0;
+}
