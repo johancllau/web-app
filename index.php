@@ -20,6 +20,7 @@
       include "navbar.html"; 
       include "koneksi.php";
    ?>
+   
     <!-- Slide gallery -->
     <div class="jumbotron">
       <div class="container">

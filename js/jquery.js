@@ -3267,7 +3267,7 @@ jQuery.support = (function( support ) {
         // Workaround failing boxSizing test due to offsetWidth returning wrong value
         // with some non-1 values of body zoom, ticket #13543
         jQuery.swap( body, body.style.zoom != null ? { zoom: 1 } : {}, function() {
-            support.boxSizing = div.offsetWidth === 4;
+            support.boxSizing = div.offsetWidth == 4;
         });
 
         // Use window.getComputedStyle because jsdom on node.js will break without it.
